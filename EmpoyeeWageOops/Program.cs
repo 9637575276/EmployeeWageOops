@@ -6,8 +6,9 @@ namespace EmployeeWage
     {
         static void Main(string[] args)
         {
-            EmpWage empWage = new EmpWage();
-            empWage.CalculateWage();
+            Console.Write("How many Companies you have : ");
+            ManageWages manageWages = new ManageWages();
+            manageWages.Manages();
         }
     }
 }
